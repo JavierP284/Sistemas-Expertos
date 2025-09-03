@@ -1,12 +1,18 @@
 # Chatbot Sencillo en Python
 
-Este proyecto es un **chatbot básico en Python** que funciona como un sistema experto simple.  
-Cuenta con **una base de conocimientos precargada** con 3 líneas iniciales y tiene la capacidad de **aprender nuevas respuestas** cuando no encuentra coincidencias con lo que el usuario escribe.
+Bienvenido a este **chatbot interactivo** hecho en Python.  
+Este proyecto es un ejemplo de **sistema experto básico** capaz de conversar y **aprender nuevas respuestas** según la interacción del usuario.
 
-El chatbot funciona de la siguiente manera:
+## Qué hace
 
-- Si el mensaje del usuario coincide con una entrada existente en la base de conocimientos, responde automáticamente.
-- Si no existe coincidencia, pregunta al usuario cómo debería responder y **guarda la nueva respuesta** para futuras interacciones.
-- La base de conocimientos se almacena en un archivo **JSON**, permitiendo que el chatbot recuerde las respuestas aprendidas entre sesiones.
+- Tiene **3 respuestas precargadas** para iniciar la conversación:
+  - "hola" → "¡Hola! ¿Cómo estás?"
+  - "cómo estás" → "Estoy bien, gracias. ¿Y tú?"
+  - "de qué te gustaría hablar" → "Podemos hablar de tecnología, deportes o música."
+- Si encuentra una coincidencia exacta con lo que escribes, responde automáticamente.
+- Si no sabe cómo responder, **te pregunta y aprende la respuesta** para la próxima vez.
+- Guarda todas las respuestas en un archivo **JSON**, por lo que su conocimiento **crece con cada conversación**.
 
-Este proyecto sirve como práctica de sistemas expertos y manejo básico de almacenamiento de datos en Python.
+## Objetivo
+
+Demostrar cómo funciona un **sistema experto sencillo** y cómo se puede implementar un chatbot que **aprenda de manera interactiva**, usando Python y manejo de archivos JSON.
